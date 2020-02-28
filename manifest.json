@@ -1,0 +1,17 @@
+ 
+{
+    "manifest_version": 2,
+    "name": "Eye Train",
+    "description": "Eye Train",
+    "version": "1.0",
+    "icons": {
+        "128": "eye.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*"],
+            "css": ["index.css"],
+            "js": ["index.js"]
+        }
+    ]
+}
